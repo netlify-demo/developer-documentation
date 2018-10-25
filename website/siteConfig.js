@@ -9,8 +9,8 @@
 // site configuration options.
 
 const siteConfig = {
-  title: 'Netlify Dev Docs',
-  tagline: 'A website for testing',
+  title: 'Acme Dev Docs',
+  tagline: 'A brand new Docusaurus site, deployed to Netlify',
   url: 'https://your-docusaurus-test-site.com', // TODO
   baseUrl: '/',
 
@@ -19,13 +19,12 @@ const siteConfig = {
 
   headerLinks: [
     {doc: 'intro', label: 'Docs'},
-    {page: 'help', label: 'Help'},
+    {page: 'help', label: 'Contact'},
     {blog: true, label: 'Showcase'},
   ],
 
 
   /* path to images for header/footer */
-  headerIcon: 'img/docusaurus.svg',
   footerIcon: 'img/docusaurus.svg',
   favicon: 'img/favicon.png',
 
