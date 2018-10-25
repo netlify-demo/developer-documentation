@@ -13,6 +13,7 @@ Setting Up
 
 Clone this repo and `cd` into the project. Then:
 
+    cd website
     npm install
     npm start
 
