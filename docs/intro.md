@@ -7,9 +7,9 @@ sidebar_label: Introduction
 
 Welcome to the Netlify Developer Documentation Template! This is a <a
 href='https://docusaurus.io' target='_blank'>Docusaurus</a> site that was
-created and deployed just for you. It looks like a normal developer
-documentation website, but it has some special features thanks to <a
-href='https://netlify.com' target='_blank'>Netlify</a>.
+created just for you. It looks like a normal developer documentation website,
+but since it’s deployed to <a href='https://netlify.com'
+target='_blank'>Netlify</a>, it has some special features.
 
 
 
@@ -64,19 +64,16 @@ href='https://netlify.com' target='_blank'>Netlify</a>.
 
 
 
-## Access Control?? Collaboration??? TODO
+## Built-In Collaboration
 
 
 <div class='icon-text'>
-  <img class='icon-text__icon' src='/docs/assets/feature-branches-small.svg'/>
+  <img class='icon-text__icon' src='/docs/assets/feature-collaboration-small.svg'/>
 
-  <div class='icon-text__text'>Sometimes your docs aren’t for public
-  consumption. You can enable password protection in Netlify’s admin panel in
-  the blink of an eye.</div>
+  <div class='icon-text__text'>Anybody that can push to the underlying Git repo
+  can publish changes to this website. Onboarding new developers is as easy as
+  granting them access to a Git repository.</div>
 
 </div>
 
-<a class='button' href='/docs/edit-a-page'>Publish a new version of these docs</a>
-
-
-
+<a class='button' href='/docs/edit-a-page'>Add a Collaborator</a>

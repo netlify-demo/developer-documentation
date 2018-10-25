@@ -121,10 +121,10 @@ const Features = () => (
         title: 'Branch Builds',
       },
       {
-        content: 'For internal-only documentation, adding password protection is one-click simple',
-        image: imgUrl('feature-password.svg'),
+        content: 'Adding new developers is a breeze thanks to Git-based deployment.',
+        image: imgUrl('feature-collaboration.svg'),
         imageAlign: 'top',
-        title: 'Access Control',
+        title: 'Built-In Collaboration',
       },
     ]}
   </Block>
