@@ -21,8 +21,9 @@ Netlify building the site, and seeing the live changes.]
 
 ## 1. Edit a page
 
-Make sure you’ve [set up this project](/docs/getting-started). Then, open up
-`/docs/edit-a-page.md`, which is the source for this page, in a text editor.
+Make sure you’ve [set up this project](/docs/getting-started) on your local
+machine. Then, open up the source file for this page (`/docs/edit-a-page.md`) in
+a text editor.
 
 
 **Delete or edit this line so you can see that something changed.**
@@ -56,16 +57,44 @@ site]().
 
 ## What’s Netlify Doing?
 
-[Not done. Want to highlight the following.]
-
-- Atomic deploy
-- Direct to CDN
-- No infrastructure
-- Customizable build command (any dev docs engine)
+Behind the scenes, Netlify is taking care of all the frustating parts of
+running a developer documentation site so you can focus on your code.
 
 
-[This is where we get to talk about build scripts and how Netlify can work with
-any build tool. And about general benefits of continuous deployment and atomic
-deploys and CDNs. All the "basic" features of Netlify.]
+### Continuous Deployment
+
+Netlify listens for changes to your Git repository and automatically deploys
+changes every time you push to your production branch. Any developer with
+access to underlying Git repo can update this site on their own.
+
+
+
+### Atomic Deploys to a CDN
+
+Instead of deploying to individual servers, Netlify serves static content (like
+this Docusaurus site) directly from a global content delivery network. It also
+ensures that deploys are atomic, which means you never need to worry about
+cache invalidation or getting into trouble after a failed deployment.
+
+
+### Infrastructure Management
+
+Netlify automatically manages all of your infrastructure for you. You don’t
+need to provision servers, configure your CDN, or worry if you have enough
+capacity when your dev docs wind up on the front page of Hacker News.
+
+
+
+### Site Builds
+
+Whenever you push a commit, Netlify runs a build command to generate the final
+version of your website. The command for this Docusaurus project is simply `npm
+run build`, but you can change it to anything you want. This means Netlify
+works with virtually any developer documentation engine (e.g., <a
+href='https://vuepress.vuejs.org/' target='_blank'>VuePress</a>), as well as
+more general purpose static site generators like <a
+href='https://jekyllrb.com/' target='_blank'>Jekyll</a> and <a
+href='https://www.gatsbyjs.org/' target='_blank'>Gatsby</a>.
+
 
 
