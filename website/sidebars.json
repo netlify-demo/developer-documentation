@@ -4,7 +4,7 @@
                         "architecture-overview"],
     "Guides": ["getting-started",
                "edit-a-page",
-               "publish-a-branch",
-               "add-a-collaborator"]
+               "add-a-collaborator",
+               "publish-a-branch"]
   }
 }

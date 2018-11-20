@@ -19,7 +19,7 @@ Netlify building the site, and seeing the live changes.]
 
 
 
-## 1. Edit a page
+## Step 1: Edit a Page
 
 Make sure you’ve [set up this project](/docs/getting-started) on your local
 machine. Then, open up the source file for this page (`/docs/edit-a-page.md`) in
@@ -35,7 +35,7 @@ target='_blank'>localhost:3000/docs/edit-a-page</a>
 
 
 
-## 2. Create a Git commit
+## Step 2: Create a Git Commit
 
 Commit the change as you would in any static site generator:
 
@@ -43,12 +43,12 @@ Commit the change as you would in any static site generator:
 
 
 
-## 3. Push the commit
+## Step 3: Push the Commit
 
 To publish changes, simply push the branch back to the origin repo that we
 created for you on GitHub.
 
-    git push origin
+    git push origin master
 
 In a few seconds, you should be able to see the updated page on the [live
 site]().
@@ -64,8 +64,8 @@ running a developer documentation site so you can focus on your code.
 ### Continuous Deployment
 
 Netlify listens for changes to your Git repository and automatically deploys
-changes every time you push to your production branch. Any developer with
-access to underlying Git repo can update this site on their own.
+changes every time you push to your production (`master`) branch. Any developer
+with access to underlying Git repo can update this site on their own.
 
 
 

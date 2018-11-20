@@ -9,7 +9,7 @@ you’ve already been added to it as a collaborator. To start experimenting with
 this site, you just have to grab the Git repo and install dependencies.
 
 
-## 1. Clone the Git Repo
+## Step 1: Clone the Git Repo
 
 First, clone the Git repo that contains the source code for this Docusaurus
 site:
@@ -23,7 +23,7 @@ you’ve already been added as a collaborator to the above repo. [TODO: If not,
 fork the official template repo.]
 
 
-## 2. Install Dependencies and Build the Site
+## Step 2: Install Dependencies and Build the Site
 
 Then run the following commands to build a local copy of the website:
 
